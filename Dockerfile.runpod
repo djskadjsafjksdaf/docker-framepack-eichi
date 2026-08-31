@@ -40,7 +40,7 @@ RUN : Setup environment \
     && mkdir /tmp/eichi \
     && cd /tmp/eichi \
     && git init \
-    && git remote add origin https://github.com/git-ai-code/FramePack-eichi \
+    && git remote add origin https://github.com/pumpCurry/FramePack-eichi \
     && git fetch --depth 1 origin "${EICHI_COMMIT_HASH}" \
     && git checkout FETCH_HEAD \
     && cp -r /tmp/eichi/webui/* /data/workspace \
